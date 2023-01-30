@@ -194,10 +194,17 @@ body {
     text-align: center;
     color: #4effd3;
     transition: .5s;
+    max-width: 300px;
+    font-family: 'roboto';
 }
 
 .personagens .pjs:hover {
     scale: 1.03;
+    box-shadow: 5px 5px 10px #004d65cb;
+}
+
+.personagens .pjs h2 {
+    padding: 10px;
 }
 
 .personagens .pjs p {
