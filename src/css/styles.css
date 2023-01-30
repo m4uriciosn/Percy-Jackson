@@ -1,12 +1,13 @@
 header {
-    background-color: #0089e4;
+    background-color: #008caf;
 }
 
-header .width {
+header .largura-maxima {
     max-width: 1440px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 60px;
 }
 
 header img {
@@ -58,7 +59,7 @@ body {
 .inicio h1 {
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: white;
     background: rgb(255,255,255);
@@ -81,6 +82,9 @@ body {
 .inicio .inicio-conteudo p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #00a3bf;
+    border-radius: 5px;
+    color: white;
 }
 
 .inicio .inicio-conteudo img {
@@ -117,9 +121,20 @@ body {
 
 .leia-mais {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     max-width: 1440px;
-    margin: auto;
+    margin: 50px auto;
+}
+
+.leia-mais img {
+    border-radius: 10px;
+    transition: .5s;
+    border: solid #00759a;
+}
+
+.leia-mais img:hover{
+    scale: 1.01;
+    box-shadow: 5px 5px 10px #004d65cb;
 }
 
 .leia-mais .leia-mais-conteudo {
@@ -128,4 +143,22 @@ body {
     flex-direction: column;
     max-width: 400px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem {
+    margin-top: 50px;
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    background: rgb(0,128,168);
+    background: linear-gradient(101deg, rgba(0,128,168,1) 0%, rgba(0,117,154,0.7749474789915967) 29%, rgba(0,117,154,0.6881127450980392) 60%, rgba(0,128,168,1) 100%);
+    border-radius: 20px;
+}
+
+.imagem img {
+    height: 300px;
 }
