@@ -1,0 +1,12 @@
+@media (max-width: 1500px) {
+    header{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1350px) {
+
+    .inicio .inicio-conteudo {
+        flex-direction: row;
+    }
+}

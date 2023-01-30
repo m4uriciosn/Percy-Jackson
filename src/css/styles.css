@@ -1,0 +1,131 @@
+header {
+    background-color: #0089e4;
+}
+
+header .width {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    height: 50px;
+    margin: 0 0 0 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    max-height: 100%;
+    align-items: center;
+    padding: 0 30px 0 0;
+    font-family: 'Arial';
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+.inicio {
+    padding: 20px;
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+}
+
+.inicio .inicio-midia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inicio .inicio-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio h1 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7105217086834734) 29%, rgba(0,0,0,0.8981967787114846) 60%, rgba(0,0,0,1) 100%);
+    width: 900px;
+    height: 100px;
+}
+
+.inicio .inicio-midia img:hover {
+    opacity: 0.8;
+}
+
+.inicio .inicio-conteudo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.inicio .inicio-conteudo p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio .inicio-conteudo img {
+    width: 300px;
+}
+
+.inicio .inicio-conteudo button {
+    position: absolute;
+    border: none;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7105217086834734) 29%, rgba(0,0,0,0.8981967787114846) 60%, rgba(0,0,0,1) 100%);
+    color: white;
+    height: 50px;
+}
+
+.inicio .inicio-conteudo #btn1 {
+    margin-top: 147px;
+    width: 300px;
+}
+
+.inicio .inicio-conteudo #btn2 {
+    margin-top: 346px;
+    width: 300px;
+}
+
+.inicio .inicio-conteudo #btn3 {
+    margin-top: 562px;
+    width: 300px;
+}
+
+.inicio .inicio-conteudo button:hover {
+    opacity: 0.8;
+}
+
+.leia-mais {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.leia-mais .leia-mais-conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: justify;
+}
