@@ -64,8 +64,13 @@ body {
     color: white;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7105217086834734) 29%, rgba(0,0,0,0.8981967787114846) 60%, rgba(0,0,0,1) 100%);
-    width: 900px;
+    width: 800px;
     height: 100px;
+}
+
+.inicio .inicio-midia #percy-img {
+    width: 800px;
+    height: 611px;
 }
 
 .inicio .inicio-midia img:hover {
@@ -160,5 +165,6 @@ body {
 }
 
 .imagem img {
-    height: 300px;
+    height: 150px;
 }
+
