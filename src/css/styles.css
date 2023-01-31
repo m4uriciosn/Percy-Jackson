@@ -27,6 +27,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #4effd3;
+}
+
 li {
     max-height: 100%;
     align-items: center;
@@ -190,10 +194,6 @@ main {
     margin: auto;
 }
 
-.personagens h1 {
-    text-align: center;
-    padding: 30px;
-}
 
 .card-info {
     background-color: #00759a;
@@ -229,11 +229,6 @@ main {
     margin: auto;
 }
 
-.livros-da-saga h1 {
-    text-align: center;
-    padding: 20px;
-}
-
 .livros-da-saga .div-livro {
     display: flex;
     justify-content: space-evenly;
@@ -251,8 +246,24 @@ main {
 .h1-livro {
     font-size: 40px;
     font-family: 'Aboreto', cursive;
+    text-align: center;
+    padding: 30px;
 }
 
 footer {
-    
+    background-color: #00759a;
+}
+
+.rodape {
+    height: 50px;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4effd3;
+}
+
+.rodape a:hover {
+    color: #4effd3;
 }
