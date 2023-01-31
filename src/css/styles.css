@@ -165,8 +165,8 @@ body {
     overflow: hidden;
     text-align: center;
     align-items: center;
-    background: rgb(0,128,168);
-    background: linear-gradient(101deg, rgba(0,128,168,1) 0%, rgba(0,117,154,0.7749474789915967) 29%, rgba(0,117,154,0.6881127450980392) 60%, rgba(0,128,168,1) 100%);
+    background: rgb(0,69,91);
+    background: linear-gradient(90deg, rgba(0,69,91,1) 0%, rgba(0,128,168,1) 50%, rgba(0,78,102,1) 100%);
     border-radius: 20px;
 }
 
