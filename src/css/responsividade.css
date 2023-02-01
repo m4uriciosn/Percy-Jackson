@@ -113,4 +113,8 @@
     .personagens .img-pj {
         height: 400px;
     }
+
+    .livro img{
+        width: 250px;
+    }
 }
