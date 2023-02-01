@@ -103,18 +103,36 @@
         height: 130px;
     }
 
+    footer {
+        font-size: 12px;
+    }
+
 }
 
-@media (max-width: 360px){
+@media (max-width: 380px){
+
+    .inicio .inicio-conteudo{
+        padding: 0;
+    }
+
     .h1-livro {
         font-size: 25px
     }
 
-    .personagens .img-pj {
-        height: 400px;
+    .imagem img {
+        height: 90px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    ul {
+        font-size: 9px;
+        padding: 10px;
     }
 
-    .livro img{
-        width: 250px;
+    footer {
+        font-size: 10px;
     }
+
 }
