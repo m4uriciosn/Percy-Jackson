@@ -1,5 +1,116 @@
-@media (max-width: 1500px) {
-    header{
-        justify-content: space-between;
+@media (max-width: 1230px) {
+    .inicio .inicio-midia{
+        justify-content: space-evenly;
+    }
+
+    .inicio .inicio-h1 {
+        display: none;
+    }
+
+    .inicio .inicio-midia .inicio-escondido {
+        display: block;
+    }
+
+    .inicio .inicio-midia .inicio-escondido img {
+        height: 611px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .leia-mais {
+        align-items: center;
+    }
+
+    .leia-mais img {
+        height: 500px;
+        }
+
+    .leia-mais .leia-mais-conteudo {
+        font-size: 15px;
+        max-width: 250px;
+    }
+
+    .personagens .pjs {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 763px) {
+
+    header img {
+        margin: auto;
+    }
+
+    ul {
+        padding: auto;
+        font-size: 15px;
+    }
+    
+    .inicio .inicio-midia .inicio-escondido {
+        display: none;
+    }
+
+    .inicio .inicio-conteudo #btn1 {
+        margin-top: 140px;
+    }
+    
+    .inicio .inicio-conteudo #btn2 {
+        margin-top: 330px;
+    }
+    
+    .inicio .inicio-conteudo #btn3 {
+        margin-top: 537px;
+    }
+
+    .leia-mais img {
+        height: 300px;
+        }
+
+    .leia-mais .leia-mais-conteudo {
+        font-size: 10px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 610px) {
+    ul {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header .largura-maxima {
+        padding: 0;
+    }
+
+    header img {
+        display: none;
+    }
+
+    ul {
+        font-size: 10px;
+    }
+
+    .leia-mais {
+        flex-direction: column;
+    }
+
+    .imagem img {
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 360px){
+    .h1-livro {
+        font-size: 25px
+    }
+
+    .personagens .img-pj {
+        height: 400px;
     }
 }

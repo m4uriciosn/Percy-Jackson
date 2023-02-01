@@ -87,6 +87,10 @@ main {
     opacity: 0.8;
 }
 
+.inicio .inicio-midia .inicio-escondido {
+    display: none;
+}
+
 .inicio .inicio-conteudo {
     display: flex;
     justify-content: space-between;
@@ -192,8 +196,8 @@ main {
     padding: 30px;
     max-width: 1350px;
     margin: auto;
+    flex-wrap: wrap;
 }
-
 
 .card-info {
     background-color: #00759a;
