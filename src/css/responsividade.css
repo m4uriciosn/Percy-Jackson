@@ -40,9 +40,6 @@
 }
 
 @media (max-width: 763px) {
-    body {
-        background-color: black;
-}
 
     header img {
         margin: auto;
