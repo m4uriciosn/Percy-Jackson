@@ -1,4 +1,5 @@
 @media (max-width: 1230px) {
+    
     .inicio .inicio-midia{
         justify-content: space-evenly;
     }
@@ -39,6 +40,9 @@
 }
 
 @media (max-width: 763px) {
+    body {
+        background-color: black;
+}
 
     header img {
         margin: auto;
@@ -54,15 +58,15 @@
     }
 
     .inicio .inicio-conteudo #btn1 {
-        margin-top: 140px;
+        margin-top: 142px;
     }
     
     .inicio .inicio-conteudo #btn2 {
-        margin-top: 330px;
+        margin-top: 332px;
     }
     
     .inicio .inicio-conteudo #btn3 {
-        margin-top: 537px;
+        margin-top: 539px;
     }
 
     .leia-mais img {
@@ -76,6 +80,7 @@
 }
 
 @media (max-width: 610px) {
+
     ul {
         font-size: 12px;
     }
