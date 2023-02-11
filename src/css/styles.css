@@ -140,6 +140,7 @@ main {
 
 .leia-mais {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     max-width: 1440px;
     margin: 50px auto;
